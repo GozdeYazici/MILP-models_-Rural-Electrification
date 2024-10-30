@@ -1,4 +1,4 @@
-To use the single and multistage models provided here, a single Excel file is enough for each instance. 
+To use the single and multistage models provided here, a single Excel file is required for each instance. 
 The file should contain the following sheets:
 
 "CD" : List of off-grid costs of all nodes in the order of node IDs without a heading
@@ -18,7 +18,7 @@ Notes:
 You can find "21_instance.xlsx" file as the sample file.
 
 Throughout "Mathematical Programming Models for Multistage Rural Electrification Planning: Off-Grid, Grid and Mini-Grid Options" 
-study, the costs are kept fixed while the multistage models are being solved. Therefore, the Excel file includes costs for only one stage. If the user wants to use different costs for the different stages, the Python codes should be updated accordingly.
+study, the costs are kept fixed throughout the stages while the multistage models are being solved. Therefore, the Excel file includes costs for only one stage. If the user wants to use different costs for the different stages, the Python codes should be updated accordingly.
 
 
 
